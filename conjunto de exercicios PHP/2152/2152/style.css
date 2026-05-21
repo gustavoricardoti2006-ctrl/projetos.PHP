@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family = mYnerve&display=swa');
+@import url('https://fonts.googleapis.com/css2?family = Nunito&display=swap');
+
+:root{
+ --C01: #000;
+ --C02:#fff;
+ --c03: rgb(165, 10, 182);
+ --c04: rgb(84, 5, 93);
+ --c05: rgb(175, 171, 175);
+ 
+ --f01: 'Mynerve', cursive;
+ --fo2: 'Nunito', sans-serif;
+}
+header{
+    height: 90px;
+    background-color: var(--c03);
+    
+}
+header > p{
+    line-height: 20px ;
+    color: #000;
+    font-size: 15px;
+    text-align: right;
+}
+.imggrande{
+    width: 700px;
+    height: 500px;
+}
+.fig1{
+    text-align: center;
+    max-width: 1000px;
+    
+}
+.tam, .tam2{
+    width: 150px;
+    height: 150px;
+}
+
+article{
+    background-color: var(--C02);
+}
+body{
+    background-color: var(--c05);
+}
+article{
+    margin: auto;
+    width: 900px;
+    height: 1600px;
+}
+.figimg{
+    padding: 13px;
+    float: right;
+}
+.figimg2{
+    padding: 13px;
+    float: left;
+}
+div{
+    text-align: center;
+    width: 900px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.tam3{
+    width: 10px;
+}
+ p{
+    text-align: justify;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+}

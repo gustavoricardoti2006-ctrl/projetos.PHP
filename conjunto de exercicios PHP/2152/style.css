@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family = mYnerve&display=swa');
+@import url('https://fonts.googleapis.com/css2?family = Nunito&display=swap');
+
+:root{
+ --C01: #000;
+ --C02:#fff;
+ --c03: rgb(165, 10, 182);
+ --c04: rgb(84, 5, 93);
+ --c05: rgb(175, 171, 175);
+ 
+ --f01: 'Mynerve', cursive;
+ --fo2: 'Nunito', sans-serif;
+}
+header{
+    height: 90px;
+    background-color: var(--c03);
+    
+}
+.fig3{
+    
+    width: 50px;
+    height: 50px;
+}
+header > p{
+    color: #000;
+    font-size: 15px;
+    text-align: right;
+}
+.figure{
+    width: 1000px;
+    height: 900px;
+}
+.fig1{
+    width: 1000px;
+    margin: auto;
+}
+.tam, .tam2{
+    width: 300px;
+    height: 250px;
+}
+
+article{
+    background-color: var(--C02);
+}
+body{
+    background-color: var(--c05);
+}
